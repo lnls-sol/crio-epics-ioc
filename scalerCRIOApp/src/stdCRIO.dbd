@@ -1,0 +1,3 @@
+device(scaler,INST_IO,devScalerCRIO,"CRIO Scaler")
+
+
