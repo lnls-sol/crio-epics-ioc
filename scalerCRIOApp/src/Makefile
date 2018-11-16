@@ -28,10 +28,10 @@ scalerCRIO_DBD += stdCRIO.dbd
 scalerCRIO_LIBS += std
 scalerCRIO_SYS_LIBS += CrioLinux
 scalerCRIO_LIBS += asyn
+scalerCRIO_LIBS += devScalerCRIO
 
 # scalerCRIO_registerRecordDeviceDriver.cpp derives from scalerCRIO.dbd
 scalerCRIO_SRCS += scalerCRIO_registerRecordDeviceDriver.cpp
-scalerCRIO_SRCS += devScalerCRIO.cpp
 
 # Build the main IOC entry point on workstation OSs.
 scalerCRIO_SRCS_DEFAULT += scalerCRIOMain.cpp
