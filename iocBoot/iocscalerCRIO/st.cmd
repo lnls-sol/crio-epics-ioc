@@ -14,7 +14,9 @@ scalerCRIO_registerRecordDeviceDriver pdbbase
 
 ## Load record instances
 #dbLoadRecords("db/xxx.db","user=raulikHost")
-dbLoadRecords "db/CRIOScaler.db","BL=${EPICS_HOSTNAME}:,SC=SCALER0,DTYP=CRIO Scaler,FREQ=10000000,SMN=CRIO-SCALER"
+dbLoadRecords "db/CRIOScaler.db","BL=${EPICS_HOSTNAME}:,SC=SCALER_DIGITAL,DTYP=CRIO Scaler,FREQ=10000000,SMN=CRIO-SCALER"
+dbLoadRecords "db/CRIOScaler.db","BL=${EPICS_HOSTNAME}:,SC=SCALER_ANALOG,DTYP=CRIO Scaler,FREQ=10000000,SMN=CRIO-SCALER"
+
 
 
 cd ${TOP}/iocBoot/${IOC}
