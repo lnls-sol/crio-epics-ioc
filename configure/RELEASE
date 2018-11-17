@@ -22,7 +22,7 @@
 TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
 ASYN=/usr/local/epics/synApps_5_8_3_14/support/asyn-4-26
 STD=/usr/local/epics/synApps_5_8_3_14/support/std-3-4
-devScalerCRIO=/home/ABTLUS/dawood.alnajjar/work/git/crio-sup
+supScalerCRIO=/home/ABTLUS/dawood.alnajjar/work/git/crio-sup
 
 # If using the sequencer, point SNCSEQ at its top directory:
 #SNCSEQ=$(EPICS_BASE)/../modules/soft/seq

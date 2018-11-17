@@ -1,0 +1,5 @@
+record(ai, "$(P):$(S)") {
+    field(INP, "@$(PIN)")
+    field(DTYP, "CrioAI")
+    field(SCAN, ".1 second")
+}

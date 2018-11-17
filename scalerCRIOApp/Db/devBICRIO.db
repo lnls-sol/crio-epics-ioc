@@ -1,0 +1,10 @@
+
+record(bi, "$(P):$(S)") {
+    field(INP, "@$(PIN)")
+        field(DTYP, "CrioBI")
+        field(SCAN, ".1 second")
+        field(ZNAM, "False")
+        field(ONAM, "True")
+}
+
+

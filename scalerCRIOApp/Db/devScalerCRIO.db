@@ -1,8 +1,8 @@
-grecord(scaler,"$(BL)$(SC)") {
+grecord(scaler,"$(BL):$(SC)") {
 	field(DTYP,"$(DTYP)")
 	field(PRIO,"HIGH")
 	field(FREQ,"$(FREQ)")
-	field(OUT,"@$(SMN)")
+        field(OUT,"$(SMN)")
 	field(TP,"1")
 	field(PREC,"3")
 	field(SCAN,".1 second")
@@ -12,4 +12,5 @@ grecord(scaler,"$(BL)$(SC)") {
 	field(NM1,"SC01")
 	field(NM2,"SC02")
 }
+
 
