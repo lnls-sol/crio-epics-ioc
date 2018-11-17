@@ -1,3 +1,0 @@
-epicsEnvSet("TOP","/home/ABTLUS/dawood.alnajjar/work/git/scaler-crio")
-epicsEnvSet("EPICS_BASE","/usr/local/epics/base")
-epicsEnvSet("IOC","iocScalerCRIO")
