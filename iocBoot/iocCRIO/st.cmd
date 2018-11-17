@@ -18,6 +18,7 @@ dbLoadRecords ("db/devScalerCRIO.db","BL=${EPICS_HOSTNAME},SC=SCALER_ANALOG,DTYP
 dbLoadRecords ("db/devBICRIO.db","P=${EPICS_HOSTNAME},S=BI0,PIN=Mod3/DIO0")
 dbLoadRecords ("db/devAICRIO.db","P=${EPICS_HOSTNAME},S=AI0,PIN=Mod4/AI0")
 dbLoadRecords ("db/devAOCRIO.db","P=${EPICS_HOSTNAME},S=AO0,PIN=Mod5/AO0")
+dbLoadRecords ("db/devBOCRIO.db","P=${EPICS_HOSTNAME},S=BO0,PIN=Mod1/DIO0")
 
 
 cd ${TOP}/iocBoot/${IOC}

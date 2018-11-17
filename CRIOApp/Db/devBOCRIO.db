@@ -1,0 +1,4 @@
+record(bo, "$(P):$(S)") {
+    field(OUT,"@$(PIN)")
+    field(DTYP, "CrioBO")
+}

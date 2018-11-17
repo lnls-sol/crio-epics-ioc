@@ -15,6 +15,7 @@ DB += devScalerCRIO.db
 DB += devBICRIO.db
 DB += devAICRIO.db
 DB += devAOCRIO.db
+DB += devBOCRIO.db
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add
