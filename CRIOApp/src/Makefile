@@ -26,7 +26,6 @@ CRIO_DBD += stdCRIO.dbd
 # Add all the support libraries needed by this IOC
 #scalerCRIO_LIBS += xxx
 CRIO_LIBS += std
-CRIO_SYS_LIBS += CrioLinux
 CRIO_LIBS += asyn
 CRIO_LIBS += devSupCRIO
 
