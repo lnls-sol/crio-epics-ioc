@@ -2,7 +2,7 @@ grecord(scaler,"$(BL):$(SC)") {
 	field(DTYP,"$(DTYP)")
 	field(PRIO,"HIGH")
 	field(FREQ,"$(FREQ)")
-        field(OUT,"$(SMN)")
+        field(OUT,"$(OUT)")
 	field(TP,"1")
 	field(PREC,"3")
 	field(SCAN,".1 second")

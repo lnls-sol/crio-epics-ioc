@@ -1,0 +1,8 @@
+file "$(TOP)/db/devScalerCRIO.db"
+{
+pattern
+{BL, SC, DTYP, FREQ, OUT}
+{"CRIO", "SCALER_DIGITAL", "CRIO Scaler", "10000000", "SCALER_DIGITAL"}
+{"CRIO", "SCALER_ANALOG", "CRIO Scaler", "10000000", "CRIO_ANALOG"}
+
+}

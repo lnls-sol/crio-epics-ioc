@@ -1,0 +1,35 @@
+file "$(TOP)/db/devAICRIO.db"
+{
+pattern
+{P, S, PIN}
+{"CRIO", "Mod4/AI0", "Mod4/AI0"}
+{"CRIO", "Mod4/AI1", "Mod4/AI1"}
+{"CRIO", "Mod4/AI2", "Mod4/AI2"}
+{"CRIO", "Mod4/AI3", "Mod4/AI3"}
+{"CRIO", "Mod6/TC0", "Mod6/TC0"}
+{"CRIO", "Mod6/TC1", "Mod6/TC1"}
+{"CRIO", "Mod6/TC2", "Mod6/TC2"}
+{"CRIO", "Mod6/TC3", "Mod6/TC3"}
+{"CRIO", "Mod7/AI0", "Mod7/AI0"}
+{"CRIO", "Mod7/AI1", "Mod7/AI1"}
+{"CRIO", "Mod7/AI2", "Mod7/AI2"}
+{"CRIO", "Mod7/AI3", "Mod7/AI3"}
+{"CRIO", "Mod8/AI0", "Mod8/AI0"}
+{"CRIO", "Mod8/AI1", "Mod8/AI1"}
+{"CRIO", "Mod8/AI2", "Mod8/AI2"}
+{"CRIO", "Mod8/AI3", "Mod8/AI3"}
+{"CRIO", "RT_DBL_AI0", "RT_DBL_AI0"}
+{"CRIO", "RT_SGL_AI1", "RT_SGL_AI1"}
+{"CRIO", "RT_I64_AI2", "RT_I64_AI2"}
+{"CRIO", "RT_I32_AI3", "RT_I32_AI3"}
+{"CRIO", "RT_I16_AI4", "RT_I16_AI4"}
+{"CRIO", "RT_I08_AI5", "RT_I08_AI5"}
+{"CRIO", "RT_U64_AI6", "RT_U64_AI6"}
+{"CRIO", "RT_U32_AI7", "RT_U32_AI7"}
+{"CRIO", "RT_U16_AI8", "RT_U16_AI8"}
+{"CRIO", "RT_U08_AI9", "RT_U08_AI9"}
+
+}
+
+
+
