@@ -11,7 +11,7 @@ cd ${TOP}
 dbLoadDatabase "dbd/CRIO.dbd"
 CRIO_registerRecordDeviceDriver pdbbase
 
-crioSupSetup("cfg/test" , 1)
+crioSupSetup("/home/ABTLUS/dawood.alnajjar/work/git/crio-linux-libs/cfg/cfg.ini" , 1)
 
 ## Load record instances
 dbLoadRecords("db/devScalerCRIO.db","BL=${EPICS_HOSTNAME},SC=SCALER_DIGITAL,DTYP=CRIO Scaler,FREQ=10000000,SMN=SCALER_DIGITAL")
