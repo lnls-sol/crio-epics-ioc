@@ -1,8 +1,5 @@
 #!../../bin/linux-x86_64/CRIO
 
-## You may have to change CRIO to something else
-## everywhere it appears in this file
-
 < envPaths
 
 cd ${TOP}
