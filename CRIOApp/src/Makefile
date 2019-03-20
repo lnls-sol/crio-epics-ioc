@@ -16,7 +16,8 @@ PROD_IOC = CRIO
 DBD += CRIO.dbd
 
 # scalerCRIO.dbd will be made up from these files:
-CRIO_DBD += base.dbd
+#base.dbd not required for new epics 3.15
+#CRIO_DBD += base.dbd
 CRIO_DBD += std.dbd
 CRIO_DBD += stdCRIO.dbd
 
