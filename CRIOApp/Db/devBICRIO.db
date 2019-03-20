@@ -1,7 +1,7 @@
 
-record(bi, "$(P):$(S)") {
+record(bi, "$(BL):$(EQ)") {
     field(INP, "@$(PIN)")
-        field(DTYP, "CrioBI")
+        field(DTYP, "$(DTYP)")
         field(SCAN, ".1 second")
         field(ZNAM, "False")
         field(ONAM, "True")

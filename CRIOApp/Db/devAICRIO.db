@@ -1,5 +1,5 @@
-record(ai, "$(P):$(S)") {
+record(ai, "$(BL):$(EQ)") {
     field(INP, "@$(PIN)")
-    field(DTYP, "CrioAI")
+    field(DTYP, "$(DTYP)")
     field(SCAN, ".1 second")
 }

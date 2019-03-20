@@ -1,4 +1,4 @@
-record(ao, "$(P):$(S)") {
+record(ao, "$(BL):$(EQ)") {
     field(OUT,"@$(PIN)")
-    field(DTYP, "CrioAO")
+    field(DTYP, "$(DTYP)")
 }

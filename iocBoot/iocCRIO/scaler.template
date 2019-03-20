@@ -1,8 +1,8 @@
 file "$(TOP)/db/devScalerCRIO.db"
 {
 pattern
-{BL, SC, DTYP, FREQ, OUT}
-{"CRIO", "SCALER_DIGITAL", "CRIO Scaler", "10000000", "SCALER"}
-{"CRIO", "SCALER_ANALOG", "CRIO Scaler", "10000000", "SCALER"}
+{BL, EQ, DTYP, FREQ, PIN}
+{"SOL", "CRIO1:SCALER1", "CRIO Scaler", "10000000", "SCALER1"}
+{"SOL", "CRIO1:SCALER2", "CRIO Scaler", "10000000", "SCALER2"}
 
 }

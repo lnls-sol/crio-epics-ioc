@@ -1,21 +1,21 @@
 file "$(TOP)/db/devAOCRIO.db"
 {
 pattern
-{P, S, PIN}
-{"CRIO", "Mod5/AO0", "Mod5/AO0"}
-{"CRIO", "Mod5/AO1", "Mod5/AO1"}
-{"CRIO", "Mod5/AO2", "Mod5/AO2"}
-{"CRIO", "Mod5/AO3", "Mod5/AO3"}
-{"CRIO", "RT_DBL_AO1", "RT_DBL_AO1"}
-{"CRIO", "RT_SGL_AO2", "RT_SGL_AO2"}
-{"CRIO", "RT_I64_AO3", "RT_I64_AO3"}
-{"CRIO", "RT_I32_AO4", "RT_I32_AO4"}
-{"CRIO", "RT_I16_AO5", "RT_I16_AO5"}
-{"CRIO", "RT_I08_AO6", "RT_I08_AO6"}
-{"CRIO", "RT_U64_AO7", "RT_U64_AO7"}
-{"CRIO", "RT_U32_AO8", "RT_U32_AO8"}
-{"CRIO", "RT_U16_AO9", "RT_U16_AO9"}
-{"CRIO", "RT_U08_AO10", "RT_U08_AO10"}
+{BL, EQ, DTYP, PIN}
+{"CRIO", "Mod5/AO0", "CrioAO", "Mod5/AO0"}
+{"CRIO", "Mod5/AO1", "CrioAO", "Mod5/AO1"}
+{"CRIO", "Mod5/AO2", "CrioAO", "Mod5/AO2"}
+{"CRIO", "Mod5/AO3", "CrioAO", "Mod5/AO3"}
+{"CRIO", "RT_DBL_AO1", "CrioAO", "RT_DBL_AO1"}
+{"CRIO", "RT_SGL_AO2", "CrioAO", "RT_SGL_AO2"}
+{"CRIO", "RT_I64_AO3", "CrioAO", "RT_I64_AO3"}
+{"CRIO", "RT_I32_AO4", "CrioAO", "RT_I32_AO4"}
+{"CRIO", "RT_I16_AO5", "CrioAO", "RT_I16_AO5"}
+{"CRIO", "RT_I08_AO6", "CrioAO", "RT_I08_AO6"}
+{"CRIO", "RT_U64_AO7", "CrioAO", "RT_U64_AO7"}
+{"CRIO", "RT_U32_AO8", "CrioAO", "RT_U32_AO8"}
+{"CRIO", "RT_U16_AO9", "CrioAO", "RT_U16_AO9"}
+{"CRIO", "RT_U08_AO10", "CrioAO", "RT_U08_AO10"}
 
 }
 

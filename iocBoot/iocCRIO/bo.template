@@ -1,32 +1,32 @@
 file "$(TOP)/db/devBOCRIO.db"
 {
 pattern
-{P, S, PIN}
-{"CRIO", "Mod1/DIO0", "Mod1/DIO0"}
-{"CRIO", "Mod1/DIO1", "Mod1/DIO1"}
-{"CRIO", "Mod1/DIO2", "Mod1/DIO2"}
-{"CRIO", "Mod1/DIO3", "Mod1/DIO3"}
-{"CRIO", "Mod2/DIO0", "Mod2/DIO0"}
-{"CRIO", "Mod2/DIO1", "Mod2/DIO1"}
-{"CRIO", "Mod2/DIO2", "Mod2/DIO2"}
-{"CRIO", "Mod2/DIO3", "Mod2/DIO3"}
-{"CRIO", "Mod3/DIO16", "Mod3/DIO16"}
-{"CRIO", "Mod3/DIO17", "Mod3/DIO17"}
-{"CRIO", "Mod3/DIO18", "Mod3/DIO18"}
-{"CRIO", "Mod3/DIO19", "Mod3/DIO19"}
-{"CRIO", "Mod3/DIO20", "Mod3/DIO20"}
-{"CRIO", "Mod3/DIO21", "Mod3/DIO21"}
-{"CRIO", "Mod3/DIO22", "Mod3/DIO22"}
-{"CRIO", "Mod3/DIO23", "Mod3/DIO23"}
-{"CRIO", "Mod3/DIO24", "Mod3/DIO24"}
-{"CRIO", "Mod3/DIO25", "Mod3/DIO25"}
-{"CRIO", "Mod3/DIO26", "Mod3/DIO26"}
-{"CRIO", "Mod3/DIO27", "Mod3/DIO27"}
-{"CRIO", "Mod3/DIO28", "Mod3/DIO28"}
-{"CRIO", "Mod3/DIO29", "Mod3/DIO29"}
-{"CRIO", "Mod3/DIO30", "Mod3/DIO30"}
-{"CRIO", "Mod3/DIO31", "Mod3/DIO31"}
-{"CRIO", "RT_BOL_BO0", "RT_BOL_BO0"}
+{BL, EQ, DTYP, PIN}
+{"CRIO", "Mod1/DIO0", "CrioBO", "Mod1/DIO0"}
+{"CRIO", "Mod1/DIO1", "CrioBO", "Mod1/DIO1"}
+{"CRIO", "Mod1/DIO2", "CrioBO", "Mod1/DIO2"}
+{"CRIO", "Mod1/DIO3", "CrioBO", "Mod1/DIO3"}
+{"CRIO", "Mod2/DIO0", "CrioBO", "Mod2/DIO0"}
+{"CRIO", "Mod2/DIO1", "CrioBO", "Mod2/DIO1"}
+{"CRIO", "Mod2/DIO2", "CrioBO", "Mod2/DIO2"}
+{"CRIO", "Mod2/DIO3", "CrioBO", "Mod2/DIO3"}
+{"CRIO", "Mod3/DIO16", "CrioBO", "Mod3/DIO16"}
+{"CRIO", "Mod3/DIO17", "CrioBO", "Mod3/DIO17"}
+{"CRIO", "Mod3/DIO18", "CrioBO", "Mod3/DIO18"}
+{"CRIO", "Mod3/DIO19", "CrioBO", "Mod3/DIO19"}
+{"CRIO", "Mod3/DIO20", "CrioBO", "Mod3/DIO20"}
+{"CRIO", "Mod3/DIO21", "CrioBO", "Mod3/DIO21"}
+{"CRIO", "Mod3/DIO22", "CrioBO", "Mod3/DIO22"}
+{"CRIO", "Mod3/DIO23", "CrioBO", "Mod3/DIO23"}
+{"CRIO", "Mod3/DIO24", "CrioBO", "Mod3/DIO24"}
+{"CRIO", "Mod3/DIO25", "CrioBO", "Mod3/DIO25"}
+{"CRIO", "Mod3/DIO26", "CrioBO", "Mod3/DIO26"}
+{"CRIO", "Mod3/DIO27", "CrioBO", "Mod3/DIO27"}
+{"CRIO", "Mod3/DIO28", "CrioBO", "Mod3/DIO28"}
+{"CRIO", "Mod3/DIO29", "CrioBO", "Mod3/DIO29"}
+{"CRIO", "Mod3/DIO30", "CrioBO", "Mod3/DIO30"}
+{"CRIO", "Mod3/DIO31", "CrioBO", "Mod3/DIO31"}
+{"CRIO", "RT_BOL_BO0", "CrioBO", "RT_BOL_BO0"}
 
 
 }
