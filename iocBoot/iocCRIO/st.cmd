@@ -8,7 +8,7 @@ cd ${TOP}
 dbLoadDatabase "dbd/CRIO.dbd"
 CRIO_registerRecordDeviceDriver pdbbase
 
-crioSupSetup("/usr/local/epics/apps/config/crio//cfg.ini" , 1)
+crioSupSetup("/usr/local/epics/apps/config/crio/cfg.ini" , 1)
 
 ## Load record instances
 
