@@ -22,7 +22,7 @@
 TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
 ASYN = /usr/local/epics-nfs/modules/R3.15.6/synApps/R6.0/support/asyn-R4-33
 STD = /usr/local/epics-nfs/modules/R3.15.6/synApps/R6.0/support/std-R3-5
-devSupCRIO=devSupCRIO=/usr/local/epics-nfs/modules/R3.15.6/crio-dev-sup
+devSupCRIO=/usr/local/epics-nfs/modules/R3.15.6/crio-dev-sup
 
 
 
