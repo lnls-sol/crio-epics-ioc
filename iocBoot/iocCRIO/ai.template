@@ -2,32 +2,32 @@ file "$(TOP)/db/devAICRIO.db"
 {
 pattern
 {BL, EQ, DTYP, PIN}
-{"CRIO1", "9215A:AI0", "CrioAI", "Mod4/AI0"}
-{"CRIO1", "9215A:AI1", "CrioAI", "Mod4/AI1"}
-{"CRIO1", "9215A:AI2", "CrioAI", "Mod4/AI2"}
-{"CRIO1", "9215A:AI3", "CrioAI", "Mod4/AI3"}
-{"CRIO1", "9213A:TC0", "CrioAI", "Mod6/TC0"}
-{"CRIO1", "9213A:TC1", "CrioAI", "Mod6/TC1"}
-{"CRIO1", "9213A:TC2", "CrioAI", "Mod6/TC2"}
-{"CRIO1", "9213A:TC3", "CrioAI", "Mod6/TC3"}
-{"CRIO1", "9215B:AI0", "CrioAI", "Mod7/AI0"}
-{"CRIO1", "9215B:AI1", "CrioAI", "Mod7/AI1"}
-{"CRIO1", "9215B:AI2", "CrioAI", "Mod7/AI2"}
-{"CRIO1", "9215B:AI3", "CrioAI", "Mod7/AI3"}
-{"CRIO1", "9215C:AI0", "CrioAI", "Mod8/AI0"}
-{"CRIO1", "9215C:AI1", "CrioAI", "Mod8/AI1"}
-{"CRIO1", "9215C:AI2", "CrioAI", "Mod8/AI2"}
-{"CRIO1", "9215C:AI3", "CrioAI", "Mod8/AI3"}
-{"CRIO1", "RT:AI0",    "CrioAI", "RT_DBL_AI0"}
-{"CRIO1", "RT:AI1",    "CrioAI", "RT_SGL_AI1"}
-{"CRIO1", "RT:AI2",    "CrioAI", "RT_I64_AI2"}
-{"CRIO1", "RT:AI3",    "CrioAI", "RT_I32_AI3"}
-{"CRIO1", "RT:AI4",    "CrioAI", "RT_I16_AI4"}
-{"CRIO1", "RT:AI5",    "CrioAI", "RT_I08_AI5"}
-{"CRIO1", "RT:AI6",    "CrioAI", "RT_U64_AI6"}
-{"CRIO1", "RT:AI7",    "CrioAI", "RT_U32_AI7"}
-{"CRIO1", "RT:AI8",    "CrioAI", "RT_U16_AI8"}
-{"CRIO1", "RT:AI9",    "CrioAI", "RT_U08_AI9"}
+{"SOL", "CRIO1:9215A:AI0", "CrioAI", "Mod4/AI0"}
+{"SOL", "CRIO1:9215A:AI1", "CrioAI", "Mod4/AI1"}
+{"SOL", "CRIO1:9215A:AI2", "CrioAI", "Mod4/AI2"}
+{"SOL", "CRIO1:9215A:AI3", "CrioAI", "Mod4/AI3"}
+{"SOL", "CRIO1:9213A:TC0", "CrioAI", "Mod6/TC0"}
+{"SOL", "CRIO1:9213A:TC1", "CrioAI", "Mod6/TC1"}
+{"SOL", "CRIO1:9213A:TC2", "CrioAI", "Mod6/TC2"}
+{"SOL", "CRIO1:9213A:TC3", "CrioAI", "Mod6/TC3"}
+{"SOL", "CRIO1:9215B:AI0", "CrioAI", "Mod7/AI0"}
+{"SOL", "CRIO1:9215B:AI1", "CrioAI", "Mod7/AI1"}
+{"SOL", "CRIO1:9215B:AI2", "CrioAI", "Mod7/AI2"}
+{"SOL", "CRIO1:9215B:AI3", "CrioAI", "Mod7/AI3"}
+{"SOL", "CRIO1:9215C:AI0", "CrioAI", "Mod8/AI0"}
+{"SOL", "CRIO1:9215C:AI1", "CrioAI", "Mod8/AI1"}
+{"SOL", "CRIO1:9215C:AI2", "CrioAI", "Mod8/AI2"}
+{"SOL", "CRIO1:9215C:AI3", "CrioAI", "Mod8/AI3"}
+{"SOL", "CRIO1:RT:AI0",    "CrioAI", "RT_DBL_AI0"}
+{"SOL", "CRIO1:RT:AI1",    "CrioAI", "RT_SGL_AI1"}
+{"SOL", "CRIO1:RT:AI2",    "CrioAI", "RT_I64_AI2"}
+{"SOL", "CRIO1:RT:AI3",    "CrioAI", "RT_I32_AI3"}
+{"SOL", "CRIO1:RT:AI4",    "CrioAI", "RT_I16_AI4"}
+{"SOL", "CRIO1:RT:AI5",    "CrioAI", "RT_I08_AI5"}
+{"SOL", "CRIO1:RT:AI6",    "CrioAI", "RT_U64_AI6"}
+{"SOL", "CRIO1:RT:AI7",    "CrioAI", "RT_U32_AI7"}
+{"SOL", "CRIO1:RT:AI8",    "CrioAI", "RT_U16_AI8"}
+{"SOL", "CRIO1:RT:AI9",    "CrioAI", "RT_U08_AI9"}
 
 }
 

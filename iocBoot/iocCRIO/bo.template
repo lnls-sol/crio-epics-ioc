@@ -2,31 +2,31 @@ file "$(TOP)/db/devBOCRIO.db"
 {
 pattern
 {BL, EQ, DTYP, PIN}
-{"CRIO1", "9401A:BO0",  "CrioBO", "Mod1/DO0"}
-{"CRIO1", "9401A:BO1",  "CrioBO", "Mod1/DO1"}
-{"CRIO1", "9401A:BO2",  "CrioBO", "Mod1/DO2"}
-{"CRIO1", "9401A:BO3",  "CrioBO", "Mod1/DO3"}
-{"CRIO1", "9401B:BO0",  "CrioBO", "Mod2/DO0"}
-{"CRIO1", "9401B:BO1",  "CrioBO", "Mod2/DO1"}
-{"CRIO1", "9401B:BO2",  "CrioBO", "Mod2/DO2"}
-{"CRIO1", "9401B:BO3",  "CrioBO", "Mod2/DO3"}
-{"CRIO1", "9403A:BO16", "CrioBO", "Mod3/DO16"}
-{"CRIO1", "9403A:BO17", "CrioBO", "Mod3/DO17"}
-{"CRIO1", "9403A:BO18", "CrioBO", "Mod3/DO18"}
-{"CRIO1", "9403A:BO19", "CrioBO", "Mod3/DO19"}
-{"CRIO1", "9403A:BO20", "CrioBO", "Mod3/DO20"}
-{"CRIO1", "9403A:BO21", "CrioBO", "Mod3/DO21"}
-{"CRIO1", "9403A:BO22", "CrioBO", "Mod3/DO22"}
-{"CRIO1", "9403A:BO23", "CrioBO", "Mod3/DO23"}
-{"CRIO1", "9403A:BO24", "CrioBO", "Mod3/DO24"}
-{"CRIO1", "9403A:BO25", "CrioBO", "Mod3/DO25"}
-{"CRIO1", "9403A:BO26", "CrioBO", "Mod3/DO26"}
-{"CRIO1", "9403A:BO27", "CrioBO", "Mod3/DO27"}
-{"CRIO1", "9403A:BO28", "CrioBO", "Mod3/DO28"}
-{"CRIO1", "9403A:BO29", "CrioBO", "Mod3/DO29"}
-{"CRIO1", "9403A:BO30", "CrioBO", "Mod3/DO30"}
-{"CRIO1", "9403A:BO31", "CrioBO", "Mod3/DO31"}
-{"CRIO1", "RT:BO0",     "CrioBO", "RT_BOL_BO0"}
+{"SOL", "CRIO1:9401A:BO0",  "CrioBO", "Mod1/DO0"}
+{"SOL", "CRIO1:9401A:BO1",  "CrioBO", "Mod1/DO1"}
+{"SOL", "CRIO1:9401A:BO2",  "CrioBO", "Mod1/DO2"}
+{"SOL", "CRIO1:9401A:BO3",  "CrioBO", "Mod1/DO3"}
+{"SOL", "CRIO1:9401B:BO0",  "CrioBO", "Mod2/DO0"}
+{"SOL", "CRIO1:9401B:BO1",  "CrioBO", "Mod2/DO1"}
+{"SOL", "CRIO1:9401B:BO2",  "CrioBO", "Mod2/DO2"}
+{"SOL", "CRIO1:9401B:BO3",  "CrioBO", "Mod2/DO3"}
+{"SOL", "CRIO1:9403A:BO16", "CrioBO", "Mod3/DO16"}
+{"SOL", "CRIO1:9403A:BO17", "CrioBO", "Mod3/DO17"}
+{"SOL", "CRIO1:9403A:BO18", "CrioBO", "Mod3/DO18"}
+{"SOL", "CRIO1:9403A:BO19", "CrioBO", "Mod3/DO19"}
+{"SOL", "CRIO1:9403A:BO20", "CrioBO", "Mod3/DO20"}
+{"SOL", "CRIO1:9403A:BO21", "CrioBO", "Mod3/DO21"}
+{"SOL", "CRIO1:9403A:BO22", "CrioBO", "Mod3/DO22"}
+{"SOL", "CRIO1:9403A:BO23", "CrioBO", "Mod3/DO23"}
+{"SOL", "CRIO1:9403A:BO24", "CrioBO", "Mod3/DO24"}
+{"SOL", "CRIO1:9403A:BO25", "CrioBO", "Mod3/DO25"}
+{"SOL", "CRIO1:9403A:BO26", "CrioBO", "Mod3/DO26"}
+{"SOL", "CRIO1:9403A:BO27", "CrioBO", "Mod3/DO27"}
+{"SOL", "CRIO1:9403A:BO28", "CrioBO", "Mod3/DO28"}
+{"SOL", "CRIO1:9403A:BO29", "CrioBO", "Mod3/DO29"}
+{"SOL", "CRIO1:9403A:BO30", "CrioBO", "Mod3/DO30"}
+{"SOL", "CRIO1:9403A:BO31", "CrioBO", "Mod3/DO31"}
+{"SOL", "CRIO1:RT:BO0",     "CrioBO", "RT_BOL_BO0"}
 
 
 }
