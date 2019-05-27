@@ -1,0 +1,12 @@
+file "$(TOP)/db/devWAVEFORMCRIO.db.template"
+{
+pattern
+{BL, EQ, DTYP, PIN, FTVL, NELM}
+{"SOL", "CRIO2:WF0", "CrioWAVEFORM", "WAVEFORM0", "ULONG", "3"}
+{"SOL", "CRIO2:WF1", "CrioWAVEFORM", "WAVEFORM1", "DOUBLE", "3"}
+{"SOL", "CRIO2:WF2", "CrioWAVEFORM", "WAVEFORM2", "FLOAT", "3"}
+
+}
+
+
+

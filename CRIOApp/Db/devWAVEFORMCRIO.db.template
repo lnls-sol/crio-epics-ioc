@@ -1,0 +1,7 @@
+record(waveform, "$(BL):$(EQ)") {
+    field(INP, "@$(PIN)")
+    field(DTYP, "$(DTYP)")
+    field(FTVL, "$(FTVL)")
+    field(NELM, "$(NELM)")
+    field(SCAN, ".1 second")
+}

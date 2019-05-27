@@ -1,4 +1,4 @@
-file "$(TOP)/db/devAOCRIO.db"
+file "$(TOP)/db/devAOCRIO.db.template"
 {
 pattern
 {BL, EQ, DTYP, PIN}

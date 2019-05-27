@@ -1,4 +1,4 @@
-file "$(TOP)/db/devBICRIO.db"
+file "$(TOP)/db/devBICRIO.db.template"
 {
 pattern
 {BL, EQ, DTYP, PIN}

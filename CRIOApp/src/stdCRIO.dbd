@@ -1,5 +1,6 @@
 device(scaler,INST_IO,devScalerCRIO,"CRIO Scaler")
 device(bi, INST_IO, devBICRIO, "CrioBI")
+device(waveform, INST_IO, devWAVEFORMCRIO, "CrioWAVEFORM")
 device(ai, INST_IO, devAICRIO, "CrioAI")
 device(ao, INST_IO, devAOCRIO, "CrioAO")
 device(bo, INST_IO, devBOCRIO, "CrioBO")

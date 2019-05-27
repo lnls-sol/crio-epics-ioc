@@ -1,4 +1,4 @@
-file "$(TOP)/db/devScalerCRIO.db"
+file "$(TOP)/db/devScalerCRIO.db.template"
 {
 pattern
 {BL, EQ, DTYP, FREQ, PIN}
