@@ -13,6 +13,9 @@ pattern
 {"SOL", "CRIO2:WFU64", "CrioWAVEFORM", "WAVEFORM_U64", "DOUBLE", "3"}
 
 {"SOL", "CRIO2:WFSGL", "CrioWAVEFORM", "WAVEFORM_SGL", "FLOAT", "3"}
+
+{"SOL", "CRIO2:RTWF0", "CrioWAVEFORM", "RT_WF0", "FLOAT", "5"}
+{"SOL", "CRIO2:RTWF1", "CrioWAVEFORM", "RT_WF1", "ULONG", "6"}
 }
 
 
