@@ -11,6 +11,7 @@ grecord(scaler,"$(BL):$(EQ)") {
 	field(G2,"N")
 	field(NM1,"SC01")
 	field(NM2,"SC02")
+	field(DESC, "$(DESC)")
 }
 
 

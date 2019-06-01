@@ -1,4 +1,5 @@
 record(ao, "$(BL):$(EQ)") {
     field(OUT,"@$(PIN)")
     field(DTYP, "$(DTYP)")
+    field(DESC, "$(DESC)")
 }

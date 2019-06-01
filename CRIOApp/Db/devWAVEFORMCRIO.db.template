@@ -4,4 +4,7 @@ record(waveform, "$(BL):$(EQ)") {
     field(FTVL, "$(FTVL)")
     field(NELM, "$(NELM)")
     field(SCAN, ".1 second")
+    field(APST, "On Change")
+    field(MPST, "On Change")
+    field(DESC, "$(DESC)")
 }

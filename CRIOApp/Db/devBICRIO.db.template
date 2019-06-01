@@ -5,6 +5,7 @@ record(bi, "$(BL):$(EQ)") {
         field(SCAN, ".1 second")
         field(ZNAM, "False")
         field(ONAM, "True")
+        field(DESC, "$(DESC)")
 }
 
 
