@@ -1,8 +1,0 @@
-file "$(TOP)/db/devScalerCRIO.db.template"
-{
-pattern
-{BL, EQ, DTYP, FREQ, PIN}
-{"SOL", "CRIO1:SCALER1", "CRIO Scaler", "10000000", "SCALER1"}
-{"SOL", "CRIO1:SCALER2", "CRIO Scaler", "10000000", "SCALER2"}
-
-}
