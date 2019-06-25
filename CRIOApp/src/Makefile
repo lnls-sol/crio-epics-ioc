@@ -20,6 +20,7 @@ DBD += CRIO.dbd
 #CRIO_DBD += base.dbd
 CRIO_DBD += std.dbd
 CRIO_DBD += stdCRIO.dbd
+CRIO_DBD += asSupport.dbd
 
 # Include dbd files from all support applications:
 #scalerCRIO_DBD += xxx.dbd
@@ -28,6 +29,7 @@ CRIO_DBD += stdCRIO.dbd
 CRIO_LIBS += std
 CRIO_LIBS += asyn
 CRIO_LIBS += devSupCRIO
+CRIO_LIBS += autosave
 
 # scalerCRIO_registerRecordDeviceDriver.cpp derives from CRIO.dbd
 CRIO_SRCS += CRIO_registerRecordDeviceDriver.cpp

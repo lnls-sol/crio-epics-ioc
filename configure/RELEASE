@@ -22,8 +22,8 @@
 TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
 ASYN = /usr/local/epics-nfs/modules/R3.15.6/synApps/R6.0/support/asyn-R4-33
 STD = /usr/local/epics-nfs/modules/R3.15.6/synApps/R6.0/support/std-R3-5
-devSupCRIO=/usr/local/epics-nfs/modules/R3.15.6/crio-dev-sup/2019_06_11_01
-
+devSupCRIO=/usr/local/epics-nfs/modules/R3.15.6/crio-dev-sup/2019_06_25_01
+AUTOSAVE=/usr/local/epics-nfs/modules/R3.15.6/synApps/R6.0/support/autosave-R5-9
 
 
 # If using the sequencer, point SNCSEQ at its top directory:
