@@ -6,7 +6,7 @@ epicsEnvSet("EPICS_BASE","/usr/local/epics-nfs/base/R3.15.6")
 epicsEnvSet("IOC","iocCRIO")
 epicsEnvSet("CONFIG","/usr/local/epics/apps/config/crio-ioc")
 epicsEnvSet("AUTOSAVE","/opt/autosave")
-
+epicsEnvSet("RECCASTER", "/usr/local/epics-nfs/apps/recsync/stable/client")
 
 cd ${TOP}
 
@@ -14,19 +14,20 @@ cd ${TOP}
 dbLoadDatabase "dbd/CRIO.dbd"
 CRIO_registerRecordDeviceDriver pdbbase
 
+#Init recSync
+< "$(CONFIG)/init-recsync.cmd"
+#epicsEnvSet("IOCNAME", "CRIO-MGN")
+#dbLoadDatabase "${RECCASTER}/db/reccaster.db", "P=MGN:CRIO1:REC:"
+
 
 set_requestfile_path($(CONFIG))
 set_savefile_path($(AUTOSAVE))
 set_pass1_restoreFile("crioioc.sav", "")
 
-
 crioSupSetup("${CONFIG}/cfg.ini" , 1)
 
 ## Load record instances
-
 cd ${TOP}/iocBoot/${IOC}
-
-
 
 dbLoadTemplate "${CONFIG}/bi.db.sub"
 dbLoadTemplate "${CONFIG}/bo.db.sub"
@@ -34,11 +35,12 @@ dbLoadTemplate "${CONFIG}/ai.db.sub"
 dbLoadTemplate "${CONFIG}/ao.db.sub"
 dbLoadTemplate "${CONFIG}/scaler.db.sub"
 dbLoadTemplate "${CONFIG}/waveform.db.sub"
+dbLoadDatabase "${TOP}/db/devMBBOCRIO.db.template"
+dbLoadDatabase "${TOP}/db/devMBBICRIO.db.template"
 iocInit
 
 #Set initial value to a PV
 < "$(CONFIG)/init-pv.cmd"
-#dbpf SOL:CRIO4:9263A:AO0 7
 
 create_monitor_set("crioioc.req", 1, "")
 

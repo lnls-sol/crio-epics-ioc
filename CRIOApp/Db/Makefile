@@ -17,6 +17,8 @@ DB += devBICRIO.db.template
 DB += devAICRIO.db.template
 DB += devAOCRIO.db.template
 DB += devBOCRIO.db.template
+DB += devMBBOCRIO.db.template
+DB += devMBBICRIO.db.template
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add

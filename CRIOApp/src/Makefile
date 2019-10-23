@@ -31,6 +31,10 @@ CRIO_LIBS += asyn
 CRIO_LIBS += devSupCRIO
 CRIO_LIBS += autosave
 
++# Needed for recsync
++CRIO_LIBS += reccaster
++CRIO_DBD += reccaster.dbd
+
 # scalerCRIO_registerRecordDeviceDriver.cpp derives from CRIO.dbd
 CRIO_SRCS += CRIO_registerRecordDeviceDriver.cpp
 
