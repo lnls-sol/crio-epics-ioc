@@ -1,4 +1,4 @@
-#!/home/ABTLUS/SOL/crio-ioc/bin/linux-x86_64/CRIO
+#!/usr/local/epics/apps/crio-ioc/bin/linux-x86_64/CRIO
 
 
 epicsEnvSet("TOP","/usr/local/epics/apps/crio-ioc")
@@ -35,8 +35,8 @@ dbLoadTemplate "${CONFIG}/ai.db.sub"
 dbLoadTemplate "${CONFIG}/ao.db.sub"
 dbLoadTemplate "${CONFIG}/scaler.db.sub"
 dbLoadTemplate "${CONFIG}/waveform.db.sub"
-dbLoadDatabase "${TOP}/db/devMBBOCRIO.db.template"
-dbLoadDatabase "${TOP}/db/devMBBICRIO.db.template"
+dbLoadTemplate "${CONFIG}/mbbi.db.sub"
+dbLoadTemplate "${CONFIG}/mbbo.db.sub"
 iocInit
 
 #Set initial value to a PV
