@@ -6,7 +6,7 @@ epicsEnvSet("EPICS_BASE","/usr/local/epics-nfs/base/R3.15.6")
 epicsEnvSet("IOC","iocCRIO")
 epicsEnvSet("CONFIG","/usr/local/epics/apps/config/crio-ioc")
 epicsEnvSet("AUTOSAVE","/opt/autosave")
-epicsEnvSet("RECCASTER", "/usr/local/epics-nfs/apps/recsync/stable/client")
+epicsEnvSet("RECCASTER", "/usr/local/epics-nfs/apps/recsync/1.4_epics_3.15/client")
 
 cd ${TOP}
 
@@ -16,8 +16,6 @@ CRIO_registerRecordDeviceDriver pdbbase
 
 #Init recSync
 < "$(CONFIG)/init-recsync.cmd"
-#epicsEnvSet("IOCNAME", "CRIO-MGN")
-#dbLoadDatabase "${RECCASTER}/db/reccaster.db", "P=MGN:CRIO1:REC:"
 
 
 set_requestfile_path($(CONFIG))
