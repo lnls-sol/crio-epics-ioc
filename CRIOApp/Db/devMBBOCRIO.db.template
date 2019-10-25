@@ -1,9 +1,7 @@
 record(mbbo, "$(BL):$(EQ)") {
     field(DESC, "$(DESC)")
     field(OUT,  "@$(PIN)")
-    field(PINI, "YES")
     field(DTYP, "$(DTYP)")
-    field(VAL,  "$(VAL)")
     field(ZRST, "$(ZRST)")    field(ZRVL, "$(ZRVL)")
     field(ONST, "$(ONST)")    field(ONVL, "$(ONVL)")
     field(TWST, "$(TWST)")    field(TWVL, "$(TWVL)")
@@ -39,7 +37,7 @@ record(mbbo, "$(BL):$(EQ)") {
     field(FTSV, "$(FTSV)")
     field(FFSV, "$(FFSV)")
     field(IVOA, "$(IVOA)")
-    field(IVOA, "$(IVOV)")
-    field(IVOA, "$(COSV)")
-    field(IVOA, "$(UNSV)")
+    field(IVOV, "$(IVOV)")
+    field(COSV, "$(COSV)")
+    field(UNSV, "$(UNSV)")
 }

@@ -18,7 +18,6 @@ record(mbbo, "$(BL):$(EQ)") {
     field(TVST, "$(TVST)")    field(TVVL, "$(TVVL)")
     field(TTST, "$(TTST)")    field(TTVL, "$(TTVL)")
     field(FTST, "$(FTST)")    field(FTVL, "$(FTVL)")
-    field(FTST, "$(FTST)")    field(FTVL, "$(FTVL)")
     field(FFST, "$(FFST)")    field(FFVL, "$(FFVL)")
     field(ZRSV, "$(ZRSV)")
     field(ONSV, "$(ONSV)")
@@ -37,6 +36,6 @@ record(mbbo, "$(BL):$(EQ)") {
     field(FTSV, "$(FTSV)")
     field(FTSV, "$(FTSV)")
     field(FFSV, "$(FFSV)")
-    field(IVOA, "$(COSV)")
-    field(IVOA, "$(UNSV)")
+    field(COSV, "$(COSV)")
+    field(UNSV, "$(UNSV)")
 }
