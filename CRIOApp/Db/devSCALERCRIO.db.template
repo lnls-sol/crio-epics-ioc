@@ -1,4 +1,4 @@
-grecord(scaler,"$(BL):$(EQ)") {
+grecord(scaler,"$(BL):$(LOC):$(EQ)") {
 	field(DTYP,"$(DTYP)")
 	field(PRIO,"HIGH")
 	field(FREQ,"$(FREQ)")

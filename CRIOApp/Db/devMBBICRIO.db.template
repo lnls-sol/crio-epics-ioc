@@ -1,4 +1,4 @@
-record(mbbi, "$(BL):$(EQ)") {
+record(mbbi, "$(BL):$(LOC):$(EQ)") {
     field(DESC, "$(DESC)")
     field(INP, "@$(PIN)")
     field(DTYP, "$(DTYP)")

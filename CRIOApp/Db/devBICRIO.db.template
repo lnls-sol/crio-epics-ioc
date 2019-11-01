@@ -1,5 +1,5 @@
 
-record(bi, "$(BL):$(EQ)") {
+record(bi, "$(BL):$(LOC):$(EQ)") {
     field(INP, "@$(PIN)")
         field(DTYP, "$(DTYP)")
         field(SCAN, ".1 second")

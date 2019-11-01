@@ -1,4 +1,4 @@
-record(mbbo, "$(BL):$(EQ)") {
+record(mbbo, "$(BL):$(LOC):$(EQ)") {
     field(DESC, "$(DESC)")
     field(OUT,  "@$(PIN)")
     field(DTYP, "$(DTYP)")

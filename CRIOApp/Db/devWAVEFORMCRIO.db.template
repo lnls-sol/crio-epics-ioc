@@ -1,4 +1,4 @@
-record(waveform, "$(BL):$(EQ)") {
+record(waveform, "$(BL):$(LOC):$(EQ)") {
     field(INP, "@$(PIN)")
     field(DTYP, "$(DTYP)")
     field(FTVL, "$(FTVL)")
