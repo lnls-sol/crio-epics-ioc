@@ -3,7 +3,7 @@ record(waveform, "$(BL):$(LOC):$(EQ)") {
     field(DTYP, "$(DTYP)")
     field(FTVL, "$(FTVL)")
     field(NELM, "$(NELM)")
-    field(SCAN, ".1 second")
+    field(SCAN, "$(SCAN)")
     field(APST, "On Change")
     field(MPST, "On Change")
     field(DESC, "$(DESC)")
