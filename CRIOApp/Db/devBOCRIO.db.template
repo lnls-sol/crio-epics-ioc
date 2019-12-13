@@ -3,4 +3,6 @@ record(bo, "$(BL):$(LOC):$(EQ)") {
     field(DTYP, "$(DTYP)")
     field(DESC, "$(DESC)")
     field(PINI, "YES")
+    field(ZNAM, "False")
+    field(ONAM, "True")
 }

@@ -1,6 +1,6 @@
 record(ai, "$(BL):$(LOC):$(EQ)") {
     field(INP, "@$(PIN)")
     field(DTYP, "$(DTYP)")
-    field(SCAN, ".1 second")
+    field(SCAN, "$(SCAN)")
     field(DESC, "$(DESC)")
 }
