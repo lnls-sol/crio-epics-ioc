@@ -1,3 +1,3 @@
-IOC CRIO
+# IOC CRIO
 
-This is an IOC project for CRIO. It shows how to use all 5 record types of the developed device support for CRIO.
+This is the Nheengatu IOC project for the CompactRIO. It shows how to use all record types of the developed device support for CRIO.
