@@ -12,5 +12,6 @@ record(ai, "$(BL):$(LOC):$(EQ)") {
     field(LSV,  "$(LSV)")
     field(LLSV, "$(LLSV)")
     field(HYST, "$(HYST)")
-    field(EGU,  "$(EGU)")    
+    field(EGU,  "$(EGU)")
+	field(PREC, "$(PREC)")
 }

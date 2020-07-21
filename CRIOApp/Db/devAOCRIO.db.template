@@ -15,4 +15,5 @@ record(ao, "$(BL):$(LOC):$(EQ)") {
     field(IVOA, "$(IVOA)")
     field(IVOV, "$(IVOV)")
     field(EGU,  "$(EGU)")
+	field(PREC, "$(PREC)")
 }
