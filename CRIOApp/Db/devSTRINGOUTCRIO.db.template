@@ -1,0 +1,6 @@
+record(stringout, "$(BL):$(LOC):$(EQ)") {
+    field(OUT,"@$(PIN)")
+    field(DTYP, "$(DTYP)")
+    field(DESC, "$(DESC)")
+    field(PINI, "YES")
+}

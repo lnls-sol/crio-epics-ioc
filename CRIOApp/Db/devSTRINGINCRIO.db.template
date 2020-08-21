@@ -1,0 +1,6 @@
+record(stringin, "$(BL):$(LOC):$(EQ)") {
+    field(INP, "@$(PIN)")
+    field(DTYP, "$(DTYP)")
+    field(SCAN, "$(SCAN)")
+    field(DESC, "$(DESC)")
+}
