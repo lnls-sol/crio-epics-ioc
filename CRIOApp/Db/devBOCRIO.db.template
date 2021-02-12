@@ -2,7 +2,10 @@ record(bo, "$(BL):$(LOC):$(EQ)") {
     field(OUT,"@$(PIN)")
     field(DTYP, "$(DTYP)")
     field(DESC, "$(DESC)")
-    field(PINI, "YES")
-    field(ZNAM, "False")
-    field(ONAM, "True")
+    field(ZNAM, "$(ZNAM)")
+    field(ONAM, "$(ONAM)")
+    field(PINI, "$(PINI)")
+    field(HIGH, "$(HIGH)")
+    field(VAL, "$(VAL)")
+
 }

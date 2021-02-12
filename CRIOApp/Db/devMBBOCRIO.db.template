@@ -40,4 +40,6 @@ record(mbbo, "$(BL):$(LOC):$(EQ)") {
     field(IVOV, "$(IVOV)")
     field(COSV, "$(COSV)")
     field(UNSV, "$(UNSV)")
+    field(PINI, "$(PINI)")
+    field(RVAL, "$(RVAL)")
 }

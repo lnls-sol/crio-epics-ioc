@@ -2,7 +2,6 @@ record(ao, "$(BL):$(LOC):$(EQ)") {
     field(OUT,"@$(PIN)")
     field(DTYP, "$(DTYP)")
     field(DESC, "$(DESC)")
-    field(PINI, "YES")
     field(HIHI, "$(HIHI)")
     field(HIGH, "$(HIGH)")
     field(LOW,  "$(LOW)")
@@ -16,4 +15,6 @@ record(ao, "$(BL):$(LOC):$(EQ)") {
     field(IVOV, "$(IVOV)")
     field(EGU,  "$(EGU)")
     field(PREC, "$(PREC)")
+    field(PINI, "$(PINI)")
+    field(VAL, "$(VAL)")
 }
