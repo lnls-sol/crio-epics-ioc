@@ -20,7 +20,9 @@ CRIO_registerRecordDeviceDriver pdbbase
 
 set_requestfile_path($(CONFIG))
 set_savefile_path($(AUTOSAVE))
-set_pass1_restoreFile("crioioc.sav", "")
+
+#Init autosave passes
+< "$(CONFIG)/autosave.cmd"
 
 crioSupSetup("${CONFIG}/cfg.ini" , 1)
 
@@ -39,10 +41,8 @@ dbLoadTemplate "${CONFIG}/stringin.db.sub"
 dbLoadTemplate "${CONFIG}/stringout.db.sub"
 iocInit
 
-#Set initial value to a PV
-< "$(CONFIG)/init-pv.cmd"
 
-create_monitor_set("crioioc.req", 1, "")
+create_monitor_set("crioioc.req", 30, "")
 
 dbl
 
