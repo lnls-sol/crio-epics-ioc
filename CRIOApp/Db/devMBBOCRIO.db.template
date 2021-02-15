@@ -41,5 +41,5 @@ record(mbbo, "$(BL):$(LOC):$(EQ)") {
     field(COSV, "$(COSV)")
     field(UNSV, "$(UNSV)")
     field(PINI, "$(PINI)")
-    field(RVAL, "$(VAL)")
+    field(VAL, "$(VAL)")
 }
