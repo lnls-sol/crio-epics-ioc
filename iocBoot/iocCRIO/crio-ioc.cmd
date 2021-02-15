@@ -14,16 +14,15 @@ cd ${TOP}
 dbLoadDatabase "dbd/CRIO.dbd"
 CRIO_registerRecordDeviceDriver pdbbase
 
-#Init recSync
+## Init recSync
 < "$(CONFIG)/init-recsync.cmd"
 
-
+## Autosave
 set_requestfile_path($(CONFIG))
 set_savefile_path($(AUTOSAVE))
+set_pass1_restoreFile("crioioc.sav")
 
-#Init autosave passes
-< "$(CONFIG)/autosave.cmd"
-
+## Initialize Nheengatu
 crioSupSetup("${CONFIG}/cfg.ini" , 1)
 
 ## Load record instances
@@ -41,7 +40,7 @@ dbLoadTemplate "${CONFIG}/stringin.db.sub"
 dbLoadTemplate "${CONFIG}/stringout.db.sub"
 iocInit
 
-
+## Save every 30 seconds
 create_monitor_set("crioioc.req", 30, "")
 
 dbl

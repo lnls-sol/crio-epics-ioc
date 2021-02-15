@@ -2,8 +2,8 @@ record(bi, "$(BL):$(LOC):$(EQ)") {
     field(INP, "@$(PIN)")
     field(DTYP, "$(DTYP)")
     field(SCAN, "$(SCAN)")
-    field(ZNAM, "False")
-    field(ONAM, "True")
+    field(ZNAM, "$(ZNAM)")
+    field(ONAM, "$(ONAM)")
     field(DESC, "$(DESC)")
 }
 
